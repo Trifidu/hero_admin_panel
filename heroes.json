@@ -19,11 +19,43 @@
       "element": "water"
     },
     {
-      "id": 4,
-      "name": "Камушек",
-      "description": "Гора. Живая.",
-      "element": "earth"
+      "id": "b672d6db-6751-436a-a20a-95eb67d53a00",
+      "name": "1",
+      "description": "2",
+      "element": "water"
+    },
+    {
+      "id": "235ffbc5-af53-4a8d-93b3-bb04166c1c33",
+      "name": "2131",
+      "description": "123",
+      "element": "fire"
     }
   ],
-  "filters": ["all", "fire", "water", "wind", "earth"]
+  "filters": [
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
 }
