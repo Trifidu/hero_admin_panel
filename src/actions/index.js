@@ -1,9 +1,9 @@
-import { createAction } from "@reduxjs/toolkit";
-import {
-  heroesFetching,
-  heroesFetched,
-  heroesFetchingError,
-} from "../components/heroesList/heroesSlice";
+// import { createAction } from "@reduxjs/toolkit";
+// import {
+//   heroesFetching,
+//   heroesFetched,
+//   heroesFetchingError,
+// } from "../components/heroesList/heroesSlice";
 
 // export const heroesFetching = () => {
 //   return {
@@ -30,12 +30,12 @@ import {
 
 // export const heroesFetchingError = createAction("HEROES_FETCHING_ERROR");
 
-export const fetchHeroes = (request) => (dispatch) => {
-  dispatch(heroesFetching());
-  request("http://localhost:3001/heroes")
-    .then((data) => dispatch(heroesFetched(data)))
-    .catch(() => dispatch(heroesFetchingError()));
-};
+// export const fetchHeroes = (request) => (dispatch) => {
+//   dispatch(heroesFetching());
+//   request("http://localhost:3001/heroes")
+//     .then((data) => dispatch(heroesFetched(data)))
+//     .catch(() => dispatch(heroesFetchingError()));
+// };
 
 export const filtersFetching = () => {
   return {
