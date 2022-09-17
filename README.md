@@ -16,4 +16,4 @@
 
 ## Link
 
-[versel-hero-panel](https://hero-admin-panel-bice.vercel.app)
+[vercel-hero-panel](https://hero-admin-panel-bice.vercel.app)
